@@ -1,0 +1,92 @@
+table {
+	border-color: black;
+	border-style: solid;
+}
+tr, td, th {
+	border-color: gray;
+	border-style: solid;
+}
+.dice {
+	border-color: gray;
+	border-style: solid;
+	margin: 11px;
+	font-size: 29px;
+    padding-right: 18px;
+    padding-bottom: 14px;
+    padding-top: 12px;
+    padding-left:18px;
+
+}
+
+#dic{
+	margin:21px;
+}
+
+
+.cell {
+	cursor: pointer;
+}
+.strike {
+	text-decoration: line-through;
+	cursor: default;
+	background-color: gray;
+}
+/*input {
+	margin: 9px;
+}
+*/
+#roll{
+	padding-top: 5px;
+    margin-bottom: 25px;
+    width: 64px;
+    height: 36px;
+    background-color: #00966e;
+    font-size: 15px;
+    border-color: black;
+    margin-left: 10px;
+}
+
+#chance {
+	width: 127px;
+    height: 50px;
+    font-size: 33px;
+    border:none;
+}
+
+#chanceScore {
+	font-size: 33px;
+}
+#equal {
+	font-size: 40px;
+}
+
+p {
+	margin: 10px;
+    margin-bottom: -13px;
+    font-size: 27px;
+}
+
+.keep {
+	background-color: #00966e;
+	border-color: black;
+    margin: 12px;
+    width: 57px;
+    height: 32px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.discard {
+	background-color: #FF9800;
+	border-color: black;
+    margin: 12px;
+    width: 57px;
+    height: 32px;
+    font-size: 9px;
+    padding: 8px;
+}
+
+.hold{
+	margin :34px;
+}
+
